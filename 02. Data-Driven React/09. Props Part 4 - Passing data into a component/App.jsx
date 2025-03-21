@@ -1,4 +1,4 @@
-import Contact from "./Contact"
+import Contact from "./Contact";
 
 /**
  * Challenge (I'm sorry!): Add all the rest of the
@@ -6,21 +6,37 @@ import Contact from "./Contact"
  */
 
 function App() {
-    return (
-        <div className="contacts">
-            <Contact
-                img="./images/mr-whiskerson.png"
-                name="Mr. Whiskerson"
-            />
-            <Contact />
-            <Contact />
-            <Contact />
-        </div>
-    )
+  return (
+    <div className="contacts">
+      <Contact
+        img="./images/mr-whiskerson.png"
+        name="Mr. Whiskerson"
+        phone="(212) 555-1234"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <Contact
+        img="./images/pumpkin.png"
+        name="Pumpkin"
+        phone="678 878 8787"
+        email="pumpkin@cat.com"
+      />
+      <Contact
+        img="./images/fluffykins.png"
+        name="Fluffykins"
+        phone="678 878 8787"
+        email="fluffykinds@cat.com"
+      />
+      <Contact
+        img="./images/felix.png"
+        name="felix"
+        phone="678 878 8787"
+        email="felix@cat.com"
+      />
+    </div>
+  );
 }
 
-export default App
-
+export default App;
 
 /**
  * 
