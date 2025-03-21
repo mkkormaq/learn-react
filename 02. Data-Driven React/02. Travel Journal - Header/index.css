@@ -13,6 +13,7 @@ header {
   background: rgb(250, 91, 91);
   color: white;
   height: 80px;
+  margin-bottom: 30px;
 }
 nav {
   display: flex;
@@ -28,4 +29,47 @@ nav {
 .header-text {
   font-size: 1.2rem;
   font-family: Inter;
+}
+
+.entry {
+  padding: 20px 40px;
+  display: flex;
+}
+.entry-image {
+  width: 30%;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.entry-article {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Inter;
+}
+
+.marker {
+  width: 0.6rem;
+  margin-right: 0.2rem;
+}
+.country-name {
+  margin-right: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.map-link {
+  font-size: 0.9rem;
+  color: gray;
+}
+.entry-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.entry-dates {
+  font-weight: 700;
+}
+.entry-text {
+  font-size: 0.9rem;
 }
