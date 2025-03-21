@@ -1,3 +1,31 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 700px;
+  margin: auto;
+}
+header {
+  background: rgb(250, 91, 91);
+  color: white;
+  height: 80px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+.header-image {
+  width: 40px;
+}
+
+.header-text {
+  font-size: 1.2rem;
+  font-family: Inter;
 }
