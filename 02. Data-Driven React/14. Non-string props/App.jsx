@@ -16,11 +16,6 @@ export default function App() {
       <Joke
         punchline="It's hard to explain puns to kleptomaniacs because they always take things literally."
         upVotes={10}
-        comments={[
-          { author: "", text: "", title: "" },
-          { author: "", text: "", title: "" },
-          { author: "", text: "", title: "" },
-        ]}
       />
       <Joke
         setup="How did the hacker escape the police?"
